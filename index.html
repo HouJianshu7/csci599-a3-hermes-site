@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CSCI599 A3 Hermes Test Assistant</title><link rel="stylesheet" href="style.css">
+<main><p class="label">Independent student coursework · CSCI 599 Assignment 3</p>
+<h1>CSCI599 A3 Hermes Test Assistant</h1>
+<p>A personal assistant demonstration by Jianshu Hou for a dedicated class-only Google account containing fictional data. This project is not an official Google or university service and is not open for public registration.</p>
+<h2>What the assistant does</h2>
+<ul><li>Reads test Gmail messages and Google Calendar events to prepare briefings and meeting reminders.</li><li>Suggests study plans around free calendar time.</li><li>Prepares email drafts and sends an individual message only after the operator reviews and approves it.</li><li>Delivers notifications to an operator-controlled Discord channel.</li></ul>
+<h2>Why Google authorization is requested</h2>
+<p>Gmail read access supplies message context; Gmail send access supports approved messages. Calendar event read access supports reminders and free-time calculations. The app does not request Calendar write access. Google OAuth lets the operator authorize these capabilities without giving the application the Google account password.</p>
+<h2>Designed for a limited classroom demonstration</h2>
+<p>The hosted assistant uses authenticated access and a configured account allowlist. Google data is processed in the private assistant deployment and, when model processing is needed, on the operator's local Gemma model. Public, non-sensitive reasoning requests may use a separate cloud model. Private requests are held if local processing is unavailable.</p>
+<p>This public website describes the app. It does not provide access to the assistant, store Google credentials, or display account content.</p>
+<nav><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a><a href="https://github.com/HouJianshu7/csci599-a3-hermes-site/issues">Contact the maintainer</a></nav>
+<p class="small">Do not post passwords, tokens, email content, or other private data in public issues. Authorized classroom users may contact the maintainer through their existing private course communication channel.</p>
+</main></html>
